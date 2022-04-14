@@ -27,7 +27,7 @@ p {
 }
 hr {
   border-style: dotted none none;
-  border-color: #EAF6F6;
+  border-color: #a3a7a7;
   border-width: 5px;
   width: 5%;
   margin: 100px auto;
@@ -42,8 +42,7 @@ a:hover {
 .top-container {
   background: rgb(224, 235, 232);
   position: relative;
-  padding-top:100px;
-
+  padding-top: 77px;
 }
 .middle-container {
   margin: 100px 0;
@@ -51,6 +50,7 @@ a:hover {
 .bottom-container {
   background-color: rgb(69, 178, 154);
   padding: 50px 0 20px;
+  margin-top: 100px;
 }
 .bottom-cloud {
   position: absolute;
@@ -72,7 +72,7 @@ a:hover {
 .footer-link {
   color: rgb(30, 131, 108);
   text-decoration: none;
-  font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /* font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   margin: 5px 50px;
   margin-bottom: 50px;
   padding-bottom: 30px;
@@ -152,4 +152,34 @@ a:hover {
   position: relative;
   top: 20px;
   font-size: 0.75em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(224, 235, 232);
+}
+
+.topnav a {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.my-pic {
+  float: left;
+  padding-left: 100px;
+  width: 50px;
 }
